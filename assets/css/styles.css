@@ -154,6 +154,7 @@ img {
   background-color: var(--first-color);
 }
 .nav__logo {
+  font-size: 1.3rem;
   color: var(--second-color);
 }
 .nav__toggle {
@@ -217,7 +218,7 @@ img {
   fill: var(--first-color);
 }
 .home__blob-img {
-  width: 360px;
+  width: 379px;
 }
 
 /*BUTTONS*/

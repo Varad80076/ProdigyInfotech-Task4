@@ -9,5 +9,5 @@
 
 
 
-![preview img](/preview.png)
+![preview img](/portfolio-preview.png)
 
