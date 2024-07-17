@@ -8,8 +8,8 @@
   /*Purple 260 - Red 355 - Blue 224 - Pink 340*/
   /* HSL color mode */
   --hue-color: 224;
-  --first-color: hsl(var(--hue-color), 89%, 60%);
-  --second-color: hsl(var(--hue-color), 56%, 12%);
+  --first-color: hsl(295.46deg 42.82% 27.54%);
+  --second-color: hsl(#f0f0f0);
   /*===== Fuente y tipografia =====*/
   --body-font: "Poppins", sans-serif;
   --big-font-size: 2rem;
@@ -48,6 +48,7 @@ body {
   font-family: var(--body-font);
   font-size: var(--normal-font-size);
   color: var(--second-color);
+  background-color: #513a9da8;
 }
 
 h1, h2, p {
@@ -110,7 +111,7 @@ img {
   top: 0;
   left: 0;
   z-index: var(--z-fixed);
-  background-color: #fff;
+  background-color: #22083d;
   box-shadow: 0 1px 4px rgba(146, 161, 176, 0.15);
 }
 
@@ -155,7 +156,7 @@ img {
 }
 .nav__logo {
   font-size: 1.3rem;
-  color: var(--second-color);
+  color: #f0f0f0;
 }
 .nav__toggle {
   color: var(--second-color);
@@ -171,7 +172,7 @@ img {
   height: 0.18rem;
   left: 0;
   top: 2rem;
-  background-color: var(--first-color);
+  background-color: hsl(0deg 0% 99.51%);
 }
 
 /*=== Show menu ===*/
@@ -271,7 +272,7 @@ img {
   padding: 0.5rem 1rem;
   margin-bottom: var(--mb-4);
   border-radius: 0.5rem;
-  box-shadow: 0px 4px 25px rgba(14, 36, 49, 0.15);
+  box-shadow: 5px 5px 5px rgb(71 63 99 / 63%);
 }
 .skills__icon {
   font-size: 2rem;
@@ -312,9 +313,13 @@ img {
   row-gap: 2rem;
 }
 .work__img {
-  box-shadow: 0px 4px 25px rgba(14, 36, 49, 0.15);
+  box-shadow: 5px 5px 25px hsla(253, 33%, 19%, 0.241);
   border-radius: 0.5rem;
   overflow: hidden;
+}
+.work__img:hover{
+
+  box-shadow: 5px 5px 25px rgb(39 32 64);
 }
 .work__img img {
   transition: 1s;
@@ -333,6 +338,11 @@ img {
   border: 1.5px solid var(--second-color);
   outline: none;
   margin-bottom: var(--mb-4);
+  
+}
+.contact__input:focus{
+  box-shadow: 5px 5px 25px rgb(39, 32, 64);
+
 }
 .contact__button {
   display: block;
@@ -447,7 +457,7 @@ img {
     display: none;
   }
   .nav__link {
-    color: var(--second-color);
+    color: #f0f0f0;
   }
   .home {
     padding: 8rem 0 2rem;
